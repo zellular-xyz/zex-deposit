@@ -14,7 +14,6 @@ services:
   sa-observer:
     build:
       context: .
-      dockerfile: Dockerfile
     image: zex-deposit
     container_name: sa-observer
     entrypoint: poetry run python -m sa.observer
@@ -31,7 +30,6 @@ services:
   sa-finalizer:
     build:
       context: .
-      dockerfile: Dockerfile
     image: zex-deposit
     container_name: sa-finalizer
     entrypoint: poetry run python -m sa.finalizer
@@ -48,7 +46,6 @@ services:
   sa-sa:
     build:
       context: .
-      dockerfile: Dockerfile
     image: zex-deposit
     container_name: sa-sa
     entrypoint: poetry run python -m sa.sa

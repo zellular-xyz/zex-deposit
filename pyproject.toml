@@ -3,17 +3,15 @@ package-mode = false
 name = "zex-deposit"
 version = "0.0.1"
 description = "Deposit module for Zellular Exchange"
-authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 web3 = "~=6.19.0"
 python-dotenv = "~=1.0.1"
 pymongo = "~=4.10.1"
 pydantic = "~=2.9.2"
 pyfrost = {git = "https://github.com/zellular-xyz/pyfrost.git"}
-eigensdk = {url = "https://github.com/zellular-xyz/eigensdk-python/archive/refs/tags/latest.zip"}
 sanic = "^24.6.0"
 
 [tool.poetry.group.dev.dependencies]

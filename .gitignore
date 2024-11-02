@@ -1,4 +1,3 @@
-/data/
 dkgs.json
 venv/
 e-venv/
@@ -9,6 +8,7 @@ temp/
 .vscode/
 .venv/
 .ruff_cache/
+.idea/
 dkg_keys.json
 nonces.json
 data/
